@@ -3,7 +3,7 @@ import user from './data/user.json';
 import Statistic from './Statistics/Statistics.jsx';
 import data from './data/data.json';
 import friends from './data/friends.json';
-import FriendsList from 'components/FriendsList/FriendList.jsx';
+import FriendsList from './FriendsList/FriendList.jsx';
 import FriendListItem from './FriendListItem/FriendListItem.jsx';
 import transactions from './data/transactions.json';
 import Transactions from './Transactions/TransactionHistory.jsx';
