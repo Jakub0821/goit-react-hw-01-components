@@ -1,62 +1,61 @@
 .profile {
-    margin: 150px auto;
-    width: 300px;
-    background-color: white;
-    border: 1px solid rgb(204, 220, 233);
-    border-radius: 4px;
+  margin: 0 auto;
+  width: 260px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--white, rgb(215, 196, 196));
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   }
   
-  .description {
-    text-align: center;
-  }
+   .avatar {
+      width: 260px;
+      height: 264px;
+   }
   
-  .avatar {
-    width: 200px;
-    border-radius: 50%;
-    margin-top: 30px;
-    background-color:  rgb(204, 220, 233);
-    padding-top: 10px;
-  }
+  /* .descrption {
+      text-align: center;
+      border-radius: 0px 0px 4px 4px;
+      background: var(--white, rgb(154, 145, 145));
+      box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  } */
   
   .name {
-    font-size: 26px;
-    font-weight: 600;
-    line-height: 0.8rem;
+      color: #061a4d;
+      font-size: 24px;
+      font-weight: 600;
+      text-align: center;
   }
   
-  .tag,
+  .tag {
+      color: #7C8097;
+      font-size: .75em;
+      font-weight: 300;
+      text-align: center;
+  
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+  }
+  
   .location {
-    font-size: 20px;
-    color: rgb(139, 139, 139);
-    line-height: 1rem;
+      color: #080911;
+      font-size: 14px;
+      font-weight: 300;
+      text-align: center;
+      margin-bottom: 1.3em;
   }
   
   .stats {
-    padding: 0;
-    margin-bottom: 0;
-    display: flex;
-    background-color: rgb(204, 220, 233);
-    flex-grow: 1;
-  }
-  
-  .item {
-    border-top: 1px solid rgb(153, 153, 153);
-    padding: 15px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  .item:nth-child(2){
-    border-left: 1px solid rgb(153, 153, 153);
-    border-right: 1px solid rgb(153, 153, 153);
+      display: flex;
+  padding: 10px;
+  color: #061a4d;
+  background-color: rgba(255,255,255,0.5);
+  list-style: none;
+      justify-content: space-evenly;
   }
   
   .label {
-    color: rgb(139, 139, 139);
-  }
-  
-  .quantity {
-    font-size: 22px;
-    font-weight: 600;
+      display: flex;
+        align-items: center;
+        flex-direction: column;
   }
