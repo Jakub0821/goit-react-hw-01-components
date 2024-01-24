@@ -4,7 +4,6 @@ import Statistics from './Statistics/Statistics.jsx';
 import data from './data/data.json';
 import friends from './data/friends.json';
 import FriendList from './FriendsList/FriendList.jsx';
-import FriendListItem from './FriendListItem/FriendListItem.jsx';
 import transactions from './data/transactions.json';
 import TransactionHistory from './Transactions/TransactionHistory.jsx';
 
@@ -22,10 +21,8 @@ const App = () => (
 
     <Statistics stats={data} title={"Upload stats"} />
 
-    <FriendList>
-      <FriendList friends = {friends} />
-    </FriendList>
-
+    <FriendList friends = {friends} />
+    
     <TransactionHistory items={transactions} />
   </>
 );
